@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  Manual Workflow:
+  Manual-Workflow:
     runs-on: ubuntu-latest
     steps:
       - name: echo hello
