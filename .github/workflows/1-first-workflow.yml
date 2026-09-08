@@ -1,5 +1,7 @@
 name: first workflow
-on: [push]
+on:
+  branches:
+    - main
 
 jobs:
   Hello:

@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo hello
-        run: echo "Hello ci/cd"
+        run: echo "Manual workflow  ci/cd"
