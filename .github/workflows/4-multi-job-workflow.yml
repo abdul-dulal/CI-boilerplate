@@ -1,0 +1,14 @@
+name: first workflow
+on: [push]
+
+jobs:
+  first-workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: first workflow
+        run: echo "first workflow"
+  second-workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: second workflow
+        run: echo "second workflow"
